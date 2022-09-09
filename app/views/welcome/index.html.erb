@@ -1,0 +1,20 @@
+<h1>Seja Bem-Vindo!</h1>
+<p><strong>Data:<strong> <%= Date.today.strftime("%d/%m/%Y") %></p>
+<p>
+  Matheus Borges
+</p>
+
+<p> A soma é: <%= 150 + 260 %> </p>
+<p> Seu nome de trás pra frente é: <%= "Matheus".reverse %> </p>
+<% ax = "minha variavel xesque" %>
+<p>Imprimindo a variavel xesque: <%= ax %></p>
+<p>A data de hoje é: <%= Date.today %></p>
+
+<ul>
+    <li>
+      <a href="/coins">Cadastro de Moedas</a>
+    <li>
+    <li>
+      <%= link_to "Cadastro de Moedas", "/coins" %>
+    </li>
+</ul>
